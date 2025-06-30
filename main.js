@@ -39,7 +39,7 @@ function geraSenha() {
         alfabeto = alfabeto + letrasMaiusculas;
     }
     if (checkbox[1].checked) {
-        alfabeto = alfabeto + letrasMaiusculas;
+        alfabeto = alfabeto + letrasMinusculas;
     }
     if (checkbox[2].checked) {
         alfabeto = alfabeto + numero;
